@@ -1,0 +1,72 @@
+body{
+  height: 100vh;
+  width: 100vw;
+  background-color: #A4C8E1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    height: 550px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: #2C3E50;
+    gap:10px;
+    box-sizing: border-box;
+}
+
+.result{
+    height: 10%;
+    width: auto;
+    background-color:#F0F0F0;
+    border-radius: 8px;
+    border: 1px;
+    padding: 20px 30px;
+    margin: 10px;
+    text-align:right;
+    font-size: 30px;
+    font-weight: bold;
+    color: #2C3E50;
+    
+}
+
+.obtions{
+   display: grid;
+    grid-template-columns: repeat(4,2fr);
+    place-items: center ; 
+    gap: 10px;
+    margin: 10px;
+}
+
+.obtions button{
+   
+    height: 70px;
+    width: 75px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+ button.oper.idk{
+    background-color:#4A6E8D; 
+    color: #F0F0F0;
+    border: 1px solid #F0F0F0;
+}
+
+.on.idk {
+    background-color:#2C3E50;
+    color: #F0F0F0;
+    border: 1px solid #F0F0F0;
+}
+
+.obtions button:active {
+  transform: scale(0.95);
+}
+
+.obtions button:hover {
+  background-color: #ddd;
+}
